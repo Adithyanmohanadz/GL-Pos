@@ -1,0 +1,18 @@
+
+
+@media (max-width:768px) {
+    
+    @media (max-height:639px) {
+        .banner_img{
+            display: none;
+            
+            } 
+    }
+
+    .lead{
+        font-size: 1rem;
+    }
+    
+}
+
+
