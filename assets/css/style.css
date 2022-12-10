@@ -75,3 +75,20 @@
 }
 
 /* whatsapp */
+
+/* Back to top button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    display: none;
+    padding: .3rem 1rem;
+    border-radius: 1.5rem;
+  }
+
+  #arrow:hover {
+    transform: scale(1.3);
+}
+
+/* Back to top button */
