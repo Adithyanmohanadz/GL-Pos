@@ -92,3 +92,11 @@
 }
 
 /* Back to top button */
+
+/* under product points subname */
+
+@media (max-width:562px) {
+    .product_sub{
+        display: none;
+    }
+}
