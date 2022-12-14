@@ -21,8 +21,10 @@
   <!-- CSS Files -->
   <link id="pagestyle" href="assets/css/material-kit.css?v=3.0.0" rel="stylesheet" />
   <link  href="assets/css/style.css" rel="stylesheet" />
-
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- video popup link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- video popup link -->  
+</head>
 </head>
 
 <body class="about-us bg-gray-200">
@@ -120,7 +122,7 @@
   <!-- End Navbar -->
   <!-- -------- START HEADER 7 w/ text and video ------- -->
   <header class="bg-gradient-dark">
-    <div class="page-header min-vh-50" style="background-image: url('assets/img/bg9.jpg');">
+    <div class="page-header min-vh-50" style="background-image: url('assets/img/bg/bg9.jpg');">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
@@ -225,7 +227,106 @@
             </div>
             
           </div>
-          <div class="row mt-3">
+
+          <div class="row mt-3 " >
+            
+            <div class="col-md-4 mt-md-0">
+              
+                <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                  <section class="video-sec" id="video">
+                    <div class="">
+                        <div class="index5 py-5" id="video">
+                            <div class="history-info align-self text-center py-0 my-lg-0">
+                                <div class="position-relative py-2 my-lg-5">
+                                    <a href="#small-dialog1"
+                                        class="popup-with-zoom-anim play-view text-center position-absolute">
+                                        <span class="video-play-icon">
+                                            <span class="fa fa-play"></span>
+                                        </span>
+                                    </a>
+                                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                    <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
+                                        <iframe src="https://player.vimeo.com/video/124801644" frameborder="0"
+                                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                <div class="mt-2 ms-2">
+                  <h6 class="mb-0">Page Headers</h6>
+                  <p class="text-secondary text-sm font-weight-normal">10 Examples</p>
+                </div>
+              
+            </div>
+            <div class="col-md-4 mt-md-0">
+              
+              <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+                <section class="video-sec" id="video">
+                  <div class="">
+                      <div class="index5 py-5" id="video">
+                          <div class="history-info align-self text-center py-0 my-lg-0">
+                              <div class="position-relative py-2 my-lg-5">
+                                  <a href="#small-dialog1"
+                                      class="popup-with-zoom-anim play-view text-center position-absolute">
+                                      <span class="video-play-icon">
+                                          <span class="fa fa-play"></span>
+                                      </span>
+                                  </a>
+                                  <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                  <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
+                                      <iframe src="https://player.vimeo.com/video/124801644" frameborder="0"
+                                          allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+              </div>
+              <div class="mt-2 ms-2">
+                <h6 class="mb-0">Page Headers</h6>
+                <p class="text-secondary text-sm font-weight-normal">10 Examples</p>
+              </div>
+            
+          </div>
+          <div class="col-md-4 mt-md-0">
+              
+            <div class="card shadow-lg move-on-hover min-height-160 min-height-160">
+              <section class="video-sec" id="video">
+                <div class="">
+                    <div class="index5 py-5" id="video">
+                        <div class="history-info align-self text-center py-0 my-lg-0">
+                            <div class="position-relative py-2 my-lg-5">
+                                <a href="#small-dialog1"
+                                    class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/124801644" frameborder="0"
+                                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+            <div class="mt-2 ms-2">
+              <h6 class="mb-0">Page Headers</h6>
+              <p class="text-secondary text-sm font-weight-normal">10 Examples</p>
+            </div>
+          
+        </div>
+          
+        </div>
+
+          <div class="row">
   
             <section class="py-4">
               <div class="container">
@@ -323,14 +424,12 @@
     
           </div>
   
-          <div class="row mt-3 " >
-            <div class="ratio ratio-16x9" style="height: 500px; width: 800px; margin: auto;">
-              <iframe src="https://www.youtube.com/embed/vlDzYIIOYmM" title="YouTube video" ></iframe>
-            </div>
-          </div>
           
           
-          
+           
+
+      
+  
         </div>
       </div>
       
@@ -620,6 +719,45 @@ function backToTop() {
       }, 6);
     }
   </script>
+
+  <!-- video -->
+  <script src="assets/js/ad/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/ad/js.js"></script>
+  <!-- <script >
+    $(document).ready(function () {
+                $('.popup-with-zoom-anim').magnificPopup({
+                    type: 'inline',
+
+                    fixedContentPos: false,
+                    fixedBgPos: true,
+
+                    overflowY: 'auto',
+
+                    closeBtnInside: true,
+                    preloader: false,
+
+                    midClick: true,
+                    removalDelay: 300,
+                    mainClass: 'my-mfp-zoom-in'
+                });
+
+                $('.popup-with-move-anim').magnificPopup({
+                    type: 'inline',
+
+                    fixedContentPos: false,
+                    fixedBgPos: true,
+
+                    overflowY: 'auto',
+
+                    closeBtnInside: true,
+                    preloader: false,
+
+                    midClick: true,
+                    removalDelay: 300,
+                    mainClass: 'my-mfp-slide-bottom'
+                });
+            });
+  </script> -->
 </body>
 
 </html>
