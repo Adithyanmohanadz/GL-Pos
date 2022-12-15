@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
             <a class="navbar-brand font-weight-bolder ms-sm-3" href="index.html" rel="tooltip" title="GL POS" data-placement="bottom" target="_blank">
-              <img src="assets/img/glpos black.png" height="40px" alt="">
+              <img class="" src="assets/img/glpos black.png" height="40px" alt="">
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon mt-2">
@@ -98,18 +98,51 @@
 
                   </div>
                 </li>
-                
+
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="contact.html" >
-                    <i class="material-icons opacity-6 me-2 text-md">call</i>
-                    Contact Us
+                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="device.html" >
+                    <i class="material-icons opacity-6 me-2 text-md">web_stories</i>
+                    Devices
                     
                   </a>
                   
                 </li>
+
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="material-icons opacity-6 me-2 text-md">call</i>
+                    Contact Us
+                    <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+                    aria-labelledby="dropdownMenuPages">
+                    <div class="d-none d-lg-block">
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                        Support
+                      </h6>
+                      <a href="support.html" class="dropdown-item border-radius-md">
+                        <span>Help Center</span>
+                      </a>
+                      <a href="dealers.html" class="dropdown-item border-radius-md">
+                        <span>Dealers</span>
+                      </a>
+                      <a href="contact.html" class="dropdown-item border-radius-md">
+                        <span>Contact Us</span>
+                      </a>
+                      
+                      
+                    </div>
+
+                    
+
+                  </div>
+                </li>
                 
+               
+
                 <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="index.html#enquiry" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">enquiry</a>
+                  <a href="#enquiry" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">enquiry</a>
                 </li>
               </ul>
             </div>
@@ -192,7 +225,11 @@
                           <i class="material-icons opacity-10">grid_view</i>
                       </div>
                       <h5 class="mt-3">Components</h5>
-                      <p>Choose the best design system for your next product.</p>
+                      <div class="myDIV">Temple Pooja Software application is an Android  based app which provides the much needed offerrings at POS terminals. 
+                        <div class="hide">The solution helps temples, trusts, devasoms, churches etc to record and generate bill at the integrated to the POS terminal 
+                          payment gateway including donations and annadhanam. Single religious organization can have multiple terminals working 
+                          from different remote locations.</div> 
+                      </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
@@ -202,7 +239,10 @@
                           <i class="material-icons opacity-10">brush</i>
                       </div>
                       <h5 class="mt-3">Design</h5>
-                      <p>Get the latest design ideas and turn it into reality.</p>
+                      <div class="myDIV">The application is designed to run  on Android   on cloud based server with dedicated DB running at server as well as on 
+                        the device which <div class="hide">replicates frequently. For customized solutions, even single database can serve multiple POS terminals 
+                          concurrently and consolidation at desktop to monitor revenues from different terminals and payment modes are possible.</div> 
+                      </div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
@@ -212,7 +252,7 @@
                           <i class="material-icons opacity-10">code</i>
                       </div>
                       <h5 class="mt-3">Less Code</h5>
-                      <p>Make your code easier to maintain using variables.</p>
+                      <div class="myDIV">The application has been coded, designed, fine tuned, rested and optimized w.r.to hardware resources for effective performance</div>
                   </div>
               </div>
               <div class="col-lg-3 col-md-6">
@@ -222,7 +262,7 @@
                           <i class="material-icons opacity-10">devices</i>
                       </div>
                       <h5 class="mt-3">Fully Responsive</h5>
-                      <p>This design system is fully supported on any device.</p>
+                      <div class="myDIV">All application frontends are developed in responsive mode to cater comfort for end customers.</div>
                   </div>
               </div>
           </div>
@@ -762,6 +802,7 @@ function backToTop() {
                 });
             });
   </script> -->
+  <!-- video -->
 </body>
 
 </html>

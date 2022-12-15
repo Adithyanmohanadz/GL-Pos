@@ -784,3 +784,14 @@ div#small-dialog1 iframe {
 
 /*-- //play icon animation --*/
 /*--//video--*/
+
+/* text hover in mouse */
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover  .hide {
+    display: block;
+    
+  }
+  /* //text hover in mouse */

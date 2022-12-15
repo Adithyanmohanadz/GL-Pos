@@ -34,7 +34,7 @@
         <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
             <a class="navbar-brand font-weight-bolder ms-sm-3" href="index.html" rel="tooltip" title="GL POS" data-placement="bottom" target="_blank">
-              <img src="assets/img/glpos black.png" height="40px" alt="">
+              <img class="" src="assets/img/glpos black.png" height="40px" alt="">
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon mt-2">
@@ -97,18 +97,51 @@
 
                   </div>
                 </li>
-                
+
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="contact.html" >
-                    <i class="material-icons opacity-6 me-2 text-md">call</i>
-                    Contact Us
+                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="device.html" >
+                    <i class="material-icons opacity-6 me-2 text-md">web_stories</i>
+                    Devices
                     
                   </a>
                   
                 </li>
+
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="material-icons opacity-6 me-2 text-md">call</i>
+                    Contact Us
+                    <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+                    aria-labelledby="dropdownMenuPages">
+                    <div class="d-none d-lg-block">
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                        Support
+                      </h6>
+                      <a href="support.html" class="dropdown-item border-radius-md">
+                        <span>Help Center</span>
+                      </a>
+                      <a href="dealers.html" class="dropdown-item border-radius-md">
+                        <span>Dealers</span>
+                      </a>
+                      <a href="contact.html" class="dropdown-item border-radius-md">
+                        <span>Contact Us</span>
+                      </a>
+                      
+                      
+                    </div>
+
+                    
+
+                  </div>
+                </li>
                 
+               
+
                 <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="index.html#enquiry" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">enquiry</a>
+                  <a href="#enquiry" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">enquiry</a>
                 </li>
               </ul>
             </div>
@@ -144,43 +177,20 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <div class="row justify-content-start">
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">public</i>
-                  <h5>Fully integrated</h5>
-                  <p>We get insulted by others, lose trust for those We get back freezes</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">payments</i>
-                  <h5>Payments functionality</h5>
-                  <p>We get insulted by others, lose trust for those We get back freezes</p>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-start mt-4">
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">apps</i>
-                  <h5>Prebuilt components</h5>
-                  <p>We get insulted by others, lose trust for those We get back freezes</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">3p</i>
-                  <h5>Improved platform</h5>
-                  <p>We get insulted by others, lose trust for those We get back freezes</p>
-                </div>
-              </div>
-            </div>
+            <!-- <h6 class="opacity-7 text-uppercase font-weight-bolder text-sm">The Idea</h6> -->
+                  <h3 class="title mb-4">About Us</h3>
+                  <p class="text-dark">
+                      We are a group of innovators and solution providers who could sense the requirement of integration of e-Com applications onto POS terminals with edge computing solutions.
+                      <br> <br>
+                      We have done extensive refinement on our POS terminal applications w.r.to the customer requirements and are willing to customize applications for the unique business processes.
+                      <br> <br>
+                      We have wide range of open-source applications placed on POS terminals suiting to the current requirements of market.
+                  </p>
           </div>
           <div class="col-lg-4 ms-auto mt-lg-0 mt-4">
             <div class="card">
 
-              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     
@@ -259,11 +269,11 @@
                 
               </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <button class="carousel-control-prev z-index-2" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon-dark " aria-hidden="true" ></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <button class="carousel-control-next z-index-2" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                   <span class="carousel-control-next-icon-dark " aria-hidden="true"></span>
                   <span class="visually-hidden text-dark">Next</span>
                 </button>
