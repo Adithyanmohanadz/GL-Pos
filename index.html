@@ -28,12 +28,8 @@
 
 <body class="presentation-page bg-gray-200">
   
-
-
-  <!-- -------- START HEADER 1 w/ text and image on right ------- -->
-<header>
-  <!-- nav bar -->
-  <div class="container position-sticky z-index-sticky top-0">
+   <!-- nav bar -->
+  <div class="container position-sticky z-index-1 top-0">
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
@@ -164,6 +160,11 @@
     </div>
   </div>
   <!---- nav bar -->
+
+
+  <!-- -------- START HEADER 1 w/ text and image on right ------- -->
+<header class="z-index-1">
+ 
 
   
 
@@ -626,7 +627,7 @@
                 <h2 class=""> Associates </h2>
             </div>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4" style="justify-content: center;">
             <div class="col-lg-3 col-md-4 col-6 mb-4">
                 <img class="w-100 opacity-9" src="assets/img/logos/konceptslab.jpg" alt="logo">
             </div>
@@ -636,11 +637,16 @@
             <div class="col-lg-3 col-md-4 col-6 mb-4">
                 <img class="w-100 opacity-9" src="assets/img/logos/wow factor.jpg" alt="logo">
             </div>
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
-                <img class="w-100 opacity-9" src="assets/img/logos/clan tech.jpg" alt="logo">
-            </div>
             
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+              <img class="w-100 opacity-9" src="assets/img/logos/mgc.jpg" alt="logo">
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-9" src="assets/img/logos/addler.jpg" alt="logo">
         </div>
+
+        </div>
+        
     </div>
 </div>
 <!-- -------- client ------- -->
@@ -1370,7 +1376,7 @@
                                   <div class="col-md-12 pe-2 mb-3">
                                     <div class="input-group input-group-static mb-4">
                                         <label>Select Products</label>
-                                        <select class="form-control name="choice-button" id="choice-button" placeholder="Language">
+                                        <select class="form-control" name="choice-button" id="choice-button" placeholder="Language">
                                           <option value="Choice 1">Billing</option>
                                           <option value="Choice 2">Pooja</option>
                                           <option value="Choice 3">Token</option>
