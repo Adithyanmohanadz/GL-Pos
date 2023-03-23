@@ -896,3 +896,9 @@ div#small-dialog1 iframe {
     cursor: pointer;
   }
   /* gallery */
+
+  @media (max-width:991px) {
+    .mob-d-none{
+        display: none;
+    }
+  }
