@@ -869,7 +869,7 @@ div#small-dialog1 iframe {
   }
   
   .gallery__container {
-    width: 80%;
+    width: 100%;
     max-width: 1500px;
     margin: auto;
   }
@@ -880,7 +880,7 @@ div#small-dialog1 iframe {
   }
   .gallery__container .gallery__container__imgs {
     gap: 15px;
-    padding: 2.2rem 1rem;
+    /* padding: 2.2rem 1rem; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -900,5 +900,9 @@ div#small-dialog1 iframe {
   @media (max-width:991px) {
     .mob-d-none{
         display: none;
+    }
+
+    .md-text-justify{
+        text-align: justify !important;
     }
   }
